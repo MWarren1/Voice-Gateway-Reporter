@@ -1,7 +1,8 @@
 # Voice-Gateway-Reporter
-# By Redemption.Man
+###### Dependencies : Python 2.7
+###### By Redemption.Man
 Reports on a single Voice gateway from Cisco CDR records, Useful for reporting on h.323 gateways 
-
+```
 usage: gateway_reporter.py [-h] --input INPUT --gateway GATEWAY
                            [--channels CHANNELS]
 
@@ -17,3 +18,4 @@ optional arguments:
   --gateway GATEWAY    IP address of gateway
   
   --channels CHANNELS  The number of channels on the gateway(optional)
+```
